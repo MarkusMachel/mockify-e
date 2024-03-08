@@ -8,6 +8,17 @@
 
 import List from './List'
 import Button from './Button'
+import MyHookComp from './MyHookComp'
+import Counter from './Counter'
+import OnEventChange from './OnEventChange'
+
+// React hook = Special function that allows functional components
+// to use React features withou writing class components (React v16.8)
+// (useState, useEffect, useContext, useReducer, useCallback, and more...)
+
+// useState() = A React hook that allows the creation of a stateful variable
+// AND a setter function to update its value in the Virtual DOM.
+// [name, setName]
 
 function App() {
   const fruits = [
@@ -20,6 +31,9 @@ function App() {
 
   return (
     <>
+      <OnEventChange />
+      <Counter />
+      <MyHookComp />
       <List items={fruits} category="Fruits" />
       <Button />
       {/* <Card />
