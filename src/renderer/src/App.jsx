@@ -10,7 +10,6 @@ import List from './List'
 import Button from './Button'
 
 function App() {
-
   const fruits = [
     { name: 'apple', calories: 95 },
     { name: 'orange', calories: 45 },
@@ -21,7 +20,7 @@ function App() {
 
   return (
     <>
-      <List items={fruits} category="Fruits"/>
+      <List items={fruits} category="Fruits" />
       <Button />
       {/* <Card />
       <Header />
