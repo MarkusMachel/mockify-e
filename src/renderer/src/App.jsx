@@ -17,6 +17,7 @@ import Updater from './components/Updater'
 import UpdaterArray from './components/UpdaterArray'
 import UpdateArrayOfObjects from './components/UpdateArrayOfobjects'
 import ToDoList from './components/ToDoList'
+import UpdateUseEffect from './components/UpdateUseEffect'
 
 // React hook = Special function that allows functional components
 // to use React features withou writing class components (React v16.8)
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <>
+      <UpdateUseEffect />
       <ToDoList />
       <UpdateArrayOfObjects />
       <UpdaterArray />
