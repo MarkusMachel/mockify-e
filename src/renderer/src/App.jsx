@@ -11,6 +11,7 @@
 // import MyHookComp from './MyHookComp'
 // import Counter from './Counter'
 // import OnEventChange from './OnEventChange'
+import UpdaterRef from './UpdaterRef'
 import ComponentA from './components/ComponentA'
 import Versions from './components/Versions'
 // import ColorPicker from './components/ColorPicker'
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <>
+      <UpdaterRef />
       <ComponentA />
       {/* <UpdateUseEffect />
       <ToDoList />
